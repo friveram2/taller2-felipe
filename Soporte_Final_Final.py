@@ -24,7 +24,7 @@ plt.ylabel("Cantidad")
 plt.show()
 
 #Gráfica 2
-data["Seller_Type"].value_counts().plot(kind="pie")
+data["Seller_Type"].value_counts().plot(kind="bar")
 plt.title("Tipo de vendedor")
 plt.show()
 
@@ -33,3 +33,4 @@ plt.figure(figsize=(10, 8))
 plt.scatter(data["Selling_Price"], data["Brand"], color='blue', alpha=0.7)
 plt.title("Precios de venta")
 plt.show()
+anton = 1
