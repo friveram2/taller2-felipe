@@ -30,7 +30,7 @@ plt.show()
 
 #Gráfica 3
 plt.figure(figsize=(10, 8))
-plt.scatter(data["Selling_Price"], data["Brand"], color='blue', alpha=0.7)
+plt.scatter(data["Selling_Price"], data["Brand"], color='green', alpha=0.7)
 plt.title("Precios de venta")
 plt.show()
 anton = 1
